@@ -54,4 +54,22 @@ end
 
 ![Упражнения](docs/img/exercises.png)
 
+**Запуск в консоли Rails.** Упражнения раздела 4.6 и примеры из методички выполнены в `bin/rails console`.
+
+Упражнения 1 и 2 — `string_shuffle` и `String#shuffle`:
+
+![Упражнения 1 и 2](docs/img/console_ex1_2.png)
+
+Упражнения 3 и 4 — вложенный хэш `params` и `merge`:
+
+![Упражнения 3 и 4](docs/img/console_ex3_4.png)
+
+Класс `User` из `example_user.rb`:
+
+![Класс User](docs/img/console_user.png)
+
+Хелпер `full_title` и примеры из главы:
+
+![Хелпер и примеры](docs/img/console_helper.png)
+
 **Вывод.** Изучены основные конструкции Ruby, используемые в Rails; хелпер `full_title` убрал дублирование заголовков в шаблонах, все тесты проходят.
