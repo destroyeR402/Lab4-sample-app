@@ -65,3 +65,6 @@ group :test do
   gem "selenium-webdriver"
   gem "minitest-reporters"
 end
+
+# Ruby 4.0 no longer ships fiddle as a default gem; reline needs it on Windows
+gem "fiddle", platforms: %i[ windows ]
